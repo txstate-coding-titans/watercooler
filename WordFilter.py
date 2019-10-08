@@ -7,7 +7,8 @@ wholeChat = nps_chat.posts('10-19-20s_706posts.xml')
 #chat = chat[0]
 
 
-#wholeChat = [i for i in chat]
+#wholeChat = [i for i in cha
+
 #based on geeksforgeeks code
 wholeChat = [j for i in wholeChat for j in i if j not in stopwords.words("english")]
 minSize = 10
